@@ -1,0 +1,117 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f3f6fa;
+  color: #222;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2em;
+  margin: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #2a7ae2;
+  margin-bottom: 1.5em;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 1em;
+  background: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  justify-content: center;
+}
+
+input, select, button {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #d0d7de;
+  font-size: 1em;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #2a7ae2;
+  border-color: #2a7ae2;
+}
+
+button {
+  background: #2a7ae2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1d5bbf;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.95em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1em;
+  width: 100%;
+}
+
+li {
+  margin-bottom: 0.5em;
+  background: #fff;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li button {
+  background: transparent;
+  color: #e22a2a;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-left: 1em;
+  transition: color 0.2s;
+}
+
+li button:hover {
+  color: #b51c1c;
+}
+
+#total {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+}
